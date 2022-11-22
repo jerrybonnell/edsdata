@@ -5,9 +5,7 @@
 \alias{abs_census2016}
 \title{Australian Bureau of Statistics Educational Qualifications (2016)}
 \format{
-\subsection{\code{abs_census2016}}{
-
-A tibble with 64 rows and 4 columns:
+A tibble with 64 rows and 4 columns
 \describe{
 \item{Education Qualification}{Education qualification level based on the Australian Standard Classification of Education (ASCED)}
 \item{Territory/State}{Territory or State in Australia}
@@ -15,9 +13,10 @@ A tibble with 64 rows and 4 columns:
 \item{Percent (\%)}{Percentage of holders with a given education-level as a proportion of total persons in the respective territory/state}
 }
 }
-}
 \source{
-\url{https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/2071.0Main+Features100012016?OpenDocument}
+Australian Bureau of Statistics (2018) 'Educational Qualifications in Australia', \emph{Census of Population and Housing: Reflecting Australia - Stories from the Census, 2016}, accessed 21 November 2022.
+
+\url{https://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by\%20Subject/2071.0~2016~Main\%20Features~Educational\%20Qualifications\%20Data\%20Summary\%20~65}
 }
 \usage{
 abs_census2016
