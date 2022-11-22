@@ -4,9 +4,6 @@
 \name{abs_partp2017}
 \alias{abs_partp2017}
 \title{Australian Marriage Law Postal Survey Participation Data (2017)}
-\format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 31 rows and 17 columns.
-}
 \source{
 Australian Bureau of Statistics (2017) 'Australian Marriage Law Postal Survey 2017 - Participation', \emph{Australian Marriage Law Postal Survey, 2017}, accessed 21 November 2022.
 
@@ -23,13 +20,13 @@ results at the territory/state level.
 }
 \details{
 \code{abs_partp2017} displays the 2017 participation of an Australian age bracket
-in a State/Territory and 5 variables are collected per unit:
-"State/Territory", "age group", "total participants", "eligible participants",
+in a Territory/State and 5 variables are collected per unit:
+"Territory/State", "age group", "total participants", "eligible participants",
 and "participation rate". The current arrangement of the data is unsuitable
 for analysis.
 
-Eligible participants are those enrolled on the Commonwealth Electoral
-Roll, or those who made a legitimate application for enrollment, and were
-eligible to vote in a federal election as of 24 August 2017.
+From the authors: "Eligible participants are those enrolled on the Commonwealth
+Electoral Roll, or those who made a legitimate application for enrollment,
+and were eligible to vote in a federal election as of 24 August 2017."
 }
 \keyword{datasets}

@@ -14,7 +14,7 @@
 #'   \item{Metro_2013}{`0`=Nonmetro `1`=Metro (2013 OMB Metropolitan Area delineation)}
 #'   \item{Civilian_labor_force_`X`}{Civilian labor force annual average in year `X`}
 #'   \item{Employed_`X`}{Number employed annual average in year `X`}
-#'   \item{Unemployed_`X`}{Number unemployed annual averagein year `X`}
+#'   \item{Unemployed_`X`}{Number unemployed annual average in year `X`}
 #'   \item{Unemployment_rate_`X`}{Unemployment rate in year `X`}
 #'   \item{Median_Household_Income_2019}{Estimate of median household income in 2020}
 #'   \item{Med_HH_Income_Percent_of_State_Total_2020}{County household median income as a percent of the State total median household income in 2020}

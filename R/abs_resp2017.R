@@ -5,9 +5,9 @@
 #' *should the law be changed to allow same-sex couples to marry?* Data presents
 #' results at the territory/state level.
 #'
-#' Eligible participants are those enrolled on the Commonwealth Electoral
-#' Roll, or those who made a legitimate application for enrollment, and were
-#' eligible to vote in a federal election as of 24 August 2017.
+#' From the authors: "Eligible participants are those enrolled on the Commonwealth
+#' Electoral Roll, or those who made a legitimate application for enrollment,
+#' and were eligible to vote in a federal election as of 24 August 2017."
 #'
 #' @format A tibble with 8 rows and 6 columns
 #' \describe{

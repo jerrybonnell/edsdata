@@ -30,8 +30,8 @@ under the Census and Statistics Act 1905. The survey asked one question:
 results at the territory/state level.
 }
 \details{
-Eligible participants are those enrolled on the Commonwealth Electoral
-Roll, or those who made a legitimate application for enrollment, and were
-eligible to vote in a federal election as of 24 August 2017.
+From the authors: "Eligible participants are those enrolled on the Commonwealth
+Electoral Roll, or those who made a legitimate application for enrollment,
+and were eligible to vote in a federal election as of 24 August 2017."
 }
 \keyword{datasets}

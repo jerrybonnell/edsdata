@@ -1,0 +1,22 @@
+#' County Presidential Election Returns (2000-2020)
+#'
+#' Data on county-level returns for presidential elections from 2000 to 2020.
+#'
+#' @format A tibble with 72,617 rows and 12 columns
+#' \describe{
+#'   \item{year}{election year}
+#'   \item{state}{state name}
+#'   \item{state_po}{U.S. postal code state abbreviation}
+#'   \item{county_name}{county name}
+#'   \item{county_fips}{county FIPS code}
+#'   \item{office}{President}
+#'   \item{candidate}{name of the candidate}
+#'   \item{party}{party of the candidate (DEMOCRAT, REPUBLICAN, GREEN, LIBERTARIAN, or OTHER)}
+#'   \item{candidatevotes}{votes received by this candidate for this particular party}
+#'   \item{totalvotes}{total number of votes cast in this county-year}
+#'   \item{version}{date when dataset was finalized}
+#'   \item{mode}{mode of ballots cast; default is TOTAL, with different modes specified for 2020}
+#' }
+#' @source MIT Election Data and Science Lab (2018). County Presidential Election Returns 2000-2020. Harvard Dataverse.
+#' @source <https://doi.org/10.7910/DVN/VOQCHQ>
+"election"
