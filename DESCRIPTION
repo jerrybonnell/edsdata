@@ -13,3 +13,5 @@ RoxygenNote: 7.2.2
 Depends: 
     R (>= 2.10)
 LazyData: true
+URL: https://github.com/jerrybonnell/edsdata
+BugReports: https://github.com/jerrybonnell/edsdata/issues
