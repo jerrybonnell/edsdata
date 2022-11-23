@@ -1,0 +1,95 @@
+year, event, rank,name,country,distance, status
+2012, qualifier,1,Mauro Vinicius DA SILVA,Brazil,8.11, Q
+2012, qualifier,2,Marquise GOODWIN,United States,8.11, Q
+2012, qualifier,3,Aleksandr MENKOV,Russia,8.09, q
+2012, qualifier,4,Greg RUTHERFORD,Great Britain,8.08, q
+2012, qualifier,5,Christopher TOMLINSON,Great Britain,8.06, q
+2012, qualifier,6,Michel TORNEUS,Sweden,8.03, q
+2012, qualifier,7,Godfrey Khotso MOKOENA,South Africa,8.02, q
+2012, qualifier,8,Will CLAYE,United States,7.99, q
+2012, qualifier,9,Mitchell WATT,Australia,7.99, q
+2012, qualifier,10,Tyrone SMITH,Bermuda,7.97, q
+2012, qualifier,11,Henry FRAYNE,Australia,7.95, q
+2012, qualifier,12,Sebastian BAYER,Germany,7.92, q
+2012, qualifier,13,Christian REIF,Germany,7.92,
+2012, qualifier,14,Eusebio CACERES,Spain,7.92,
+2012, qualifier,15,Aleksandr PETROV,Russia,7.89,
+2012, qualifier,16,Sergey MORGUNOV,Russia,7.87,
+2012, qualifier,17,Mohammad ARZANDEH,Iran,7.84,
+2012, qualifier,18,Ignisious GAISAH,Ghana,7.79,
+2012, qualifier,19,Damar FORBES,Jamaica,7.79,
+2012, qualifier,20,Jinzhe LI,China,7.77,
+2012, qualifier,21,Raymond HIGGS,Bahamas,7.76,
+2012, qualifier,22,Alyn CAMARA,Germany,7.72,
+2012, qualifier,23,Salim SDIRI,France,7.71,
+2012, qualifier,24,Ndiss Kaba BADJI,Senegal,7.66,
+2012, qualifier,25,Arsen SARGSYAN,Armenia,7.62,
+2012, qualifier,26,Povilas MYKOLAITIS,Lithuania,7.61,
+2012, qualifier,27,Stanley GBAGBEKE,Nigeria,7.59,
+2012, qualifier,28,Marcos CHUVA,Portugal,7.55,
+2012, qualifier,29,Louis TSATOUMAS,Greece,7.53,
+2012, qualifier,30,Stepan WAGNER,Czech Republic,7.50,
+2012, qualifier,31,Viktor KUZNYETSOV,Ukraine,7.50,
+2012, qualifier,32,Luis RIVERA,Mexico,7.42,
+2012, qualifier,33,Ching-Hsuan LIN,Taiwan,7.38,
+2012, qualifier,33,Supanara SUKHASVASTI N A,Thailand,7.38,
+2012, qualifier,35,Boleslav SKHIRTLADZE,Georgia,7.26,
+2012, qualifier,36,Xiaoyi ZHANG,China,7.25,
+2012, qualifier,37,Mohamed Fathalla DIFALLAH,Egypt,7.08,
+2012, qualifier,38,Roman NOVOTNY,Czech Republic,6.96,
+2012, qualifier,39,George KITCHENS,United States,6.84,
+2012, qualifier,40,Vardan PAHLEVANYAN,Armenia,6.55,
+2012, final, 1,	greg rutherford,GBR GBR,		8.31,G
+2012, final, 2,	mitchell watt,AUS AUS,		8.16,S
+2012, final, 3,	will claye,USA USA,		8.12,B
+2012, final, 4,	michel torneus,SWE SWE,		8.11,
+2012, final, 5,	sebastian bayer,GER GER,		8.1,
+2012, final, 6,	christopher tomlinson,GBR GBR,		8.07,
+2012, final, 7,	mauro vinicius da silva,BRA BRA,		8.01,
+2012, final, 8,	godfrey khotso mokoena,RSA RSA,		7.93,
+2012, final, 9,	henry frayne,AUS AUS,		7.85,
+2012, final, 10,	marquise goodwin,USA USA,		7.8,
+2012, final, 11,	aleksandr menkov,RUS RUS,		7.78,
+2012, final, 12,	tyrone smith,BER BER,		7.7,
+2016, qualifier, 1,Wang Jianan,China,8.24,Q
+2016, qualifier, 2,Jeff Henderson,United States,8.20,Q
+2016, qualifier, 3,Emiliano Lasa,Uruguay,8.14,q
+2016, qualifier, 4,Luvo Manyonga,South Africa,8.12,q
+2016, qualifier, 5,Rushwal Samaai,South Africa,8.03,q
+2016, qualifier, 6,Henry Frayne,Australia,8.01,q
+2016, qualifier, 7,Jarrion Lawson,United States,7.99,q
+2016, qualifier, 8,Fabrice Lapierre,Australia,7.96,q
+2016, qualifier, 9,Huang Changzhou,China,7.95,q
+2016, qualifier, 10,Greg Rutherford,Great Britain,7.90,q
+2016, qualifier, 11,Kafétien Gomis,France,7.89,q
+2016, qualifier, 12,Damar Forbes,Jamaica,7.85,q
+2016, qualifier, 13,Radek Juška,Czech Republic,7.84,
+2016, qualifier, 14,Kim Deok-hyeon,South Korea,7.82,
+2016, qualifier, 15,Maykel Massó,Cuba,7.81,
+2016, qualifier, 16,Tyrone Smith,Bermuda,7.81,
+2016, qualifier, 17,Chan Ming Tai,Hong Kong,7.79,
+2016, qualifier, 18,Fabian Heinle,Germany,7.79,
+2016, qualifier, 19,Bachana Khorava,Georgia,7.77,
+2016, qualifier, 20,Jean Marie Okutu,Spain,7.75,
+2016, qualifier, 21,Izmir Smajlaj,Albania,7.72,
+2016, qualifier, 22,Stefan Brits,South Africa,7.71,
+2016, qualifier, 23,Kanstantsin Barycheuski,Belarus,7.67,
+2016, qualifier, 24,Ankit Sharma,India,7.67,
+2016, qualifier, 25,Mike Hartfield,United States,7.66,
+2016, qualifier, 26,Michel Tornéus,Sweden,7.65,
+2016, qualifier, 27,Miltiadis Tentoglou,Greece,7.64,
+2016, qualifier, 28,Higor Alves,Brazil,7.59,
+2016, qualifier, 29,Mohammad Arzandeh,Iran,7.31,
+2016, qualifier, 30,Alyn Camara,Germany,5.16,
+2016, final, 1,	jeff henderson,USA USA,		8.38,G
+2016, final, 2,	luvo manyonga,RSA RSA,		8.37,S
+2016, final, 3,	greg rutherford,GBR GBR,		8.29,B
+2016, final, 4,	jarrion lawson,USA USA,		8.25,
+2016, final, 5,	jianan wang,CHN CHN,		8.17,
+2016, final, 6,	emiliano lasa,URU URU,		8.1,
+2016, final, 7,	henry frayne,AUS AUS,		8.06,
+2016, final, 8,	kafetien gomis,FRA FRA,		8.05,
+2016, final, 9,	rushwal samaai,RSA RSA,		7.97,
+2016, final, 10,	fabrice lapierre,AUS AUS,		7.87,
+2016, final, 11,	changzhou huang,CHN CHN,		7.86,
+2016, final, 12,	damar forbes,JAM JAM,		7.82,
