@@ -15,6 +15,8 @@ U.S. Department of Education
 \url{https://collegescorecard.ed.gov/data/glossary/}
 
 \url{https://collegescorecard.ed.gov/data/documentation/}
+
+\url{https://catalog.data.gov/dataset/college-scorecard}
 }
 \usage{
 scorecard_fl

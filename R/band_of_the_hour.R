@@ -5,5 +5,5 @@
 #'
 #'
 #' @format A character vector
-#' @source <https://welcome.miami.edu/about-um/traditions/index.html>
+#' @source <https://en.wikipedia.org/wiki/Band_of_the_Hour>
 "band_of_the_hour"

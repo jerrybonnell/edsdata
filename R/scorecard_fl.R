@@ -13,4 +13,5 @@
 #' @source <https://collegescorecard.ed.gov/data/>
 #' @source <https://collegescorecard.ed.gov/data/glossary/>
 #' @source <https://collegescorecard.ed.gov/data/documentation/>
+#' @source <https://catalog.data.gov/dataset/college-scorecard>
 "scorecard_fl"

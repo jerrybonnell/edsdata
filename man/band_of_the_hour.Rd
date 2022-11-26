@@ -8,7 +8,7 @@
 A character vector
 }
 \source{
-\url{https://welcome.miami.edu/about-um/traditions/index.html}
+\url{https://en.wikipedia.org/wiki/Band_of_the_Hour}
 }
 \usage{
 band_of_the_hour
