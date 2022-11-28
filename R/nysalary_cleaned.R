@@ -1,0 +1,35 @@
+#' Salary Information for New York Local Authorities
+#'
+#' Subset of data on salary data by employee reported by New York
+#' Local Authorities. Covers employee data where fiscal year
+#' ended on 12/31/2020. Money amounts are given as pay
+#' strings (`$`) to practice tidy string manipulations.
+#'
+#'
+#' @format A tibble with 1,685 rows and 20 columns
+#' \describe{
+#'   \item{Authority Name}{Name of local authority}
+#'   \item{Fiscal Year End Date}{Chapter number}
+#'   \item{Last Name}{last name}
+#'   \item{Middle Initial}{middle initial}
+#'   \item{First Name}{first name}
+#'   \item{Title}{employee title}
+#'   \item{Group}{employee group}
+#'   \item{Department}{employee department}
+#'   \item{Pay Type}{`FT`, `PT`, or `NA`}
+#'   \item{Exempt Indicator}{exempt indicator}
+#'   \item{Base Annualized Salary}{base annualized salary}
+#'   \item{Actual Salary Paid}{actual salary paid}
+#'   \item{Overtime Paid}{overtime paid}
+#'   \item{Extra Pay}{extra paid}
+#'   \item{Other Compensation}{other compensation}
+#'   \item{Total Compensation}{This is the actual salary paid to the individual by the authority during the year, plus any other financial payment made to the individual, as reflected in the various compensation fields that have been added in PARIS}
+#'   \item{Paid By Another Entity}{`Y` or `N`}
+#'   \item{Paid by State or Local Government}{`Y` or `N`}
+#' }
+#' @source Open Data NY
+#' @source <https://data.ny.gov/Transparency/Salary-Information-for-Local-Authorities/fx93-cifz>
+#' @source <https://catalog.data.gov/dataset/salary-information-for-local-authorities>
+#' @source <https://data.ny.gov/download/77gx-ii52/application/pdf>
+#' @source <https://abo.ny.gov/paris/PARISHandbook2017.pdf>
+"nysalary_cleaned"

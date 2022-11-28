@@ -12,7 +12,13 @@ nysalary <- salary %>%
          `Extra Pay` = str_c("$",`Extra Pay`),
          `Other Compensation` = str_c("$",`Other Compensation`),
          `Total Compensation` = str_c("$",`Total Compensation`)) %>%
+  drop_na(`Total Compensation`) %>%
   select(-c(`Has Employees`))
 
-usethis::use_data(nysalary, overwrite = TRUE)
+nysalary_cleaned <- nysalary %>%
+  mutate(`Total Compensation ($)` = map_dbl(`Total Compensation`,
+                                            function(x) as.double(str_remove_all(x, "[$,]"))/10000))
 
+
+usethis::use_data(nysalary, overwrite = TRUE)
+usethis::use_data(nysalary_cleaned, overwrite = TRUE)
