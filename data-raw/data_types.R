@@ -1,6 +1,6 @@
 library(tidyverse)
 
-bank_loans <- rnorm(100000,100000,100000)
+bank_loans <- abs(rnorm(100000,100000,100000))
 
 usethis::use_data(bank_loans, overwrite = TRUE)
 
