@@ -7,6 +7,7 @@
 \format{
 A tibble with 80 rows and 3 columns
 \describe{
+\item{day}{the day number}
 \item{heron}{whether a heron was observed (\code{1}) or not (\code{0})}
 \item{fish}{whether a fish was observed (\code{1}) or not (\code{0})}
 \item{squirrel}{whether a squirrel was observed (\code{1}) or not (\code{0})}
