@@ -1,0 +1,28 @@
+#' Bio Data on Olympic Athletes and Medal Results from Los Angeles 1984 to Rio 2016
+#'
+#' Data on bio and medal results of Olympic Athletes from Los Angeles 1984 to Rio 2016. Source data includes more historical data (through 1896), but is filtered down in this dataset.
+#'
+#' From the authors: "Note that the Winter and Summer Games were held in the same year up until 1992. After that, they staggered them such that Winter Games occur on a four year cycle starting with 1994..."
+#'
+#' @format A tibble with 148,480 rows and 15 columns
+#' \describe{
+#'   \item{ID}{Unique number for each athlete}
+#'   \item{Name}{athlete name}
+#'   \item{Sex}{M or F}
+#'   \item{Age}{Integer}
+#'   \item{Height}{In centimeters}
+#'   \item{Weight}{In kilograms}
+#'   \item{Team}{Team name}
+#'   \item{NOC}{National Olympic Committee 3-letter code}
+#'   \item{Games}{Year and season}
+#'   \item{Year}{Integer}
+#'   \item{Season}{Summer or Winter}
+#'   \item{City}{Host city}
+#'   \item{Sport}{Sport}
+#'   \item{Event}{Event}
+#'   \item{Medal}{Gold, Silver, Bronze, or NA}
+#'   \item{Season}{Integer}
+#' }
+#' @source Kaggle
+#' @source <https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results>
+"athletes"
