@@ -1,10 +1,10 @@
-#' Bio Data on Olympic Athletes and Medal Results from Los Angeles 1984 to Rio 2016
+#' Bio Data on Olympic Athletes and Medal Results from Athens 1896 to Rio 2016
 #'
-#' Data on bio and medal results of Olympic Athletes from Los Angeles 1984 to Rio 2016. Source data includes more historical data (through 1896), but is filtered down in this dataset.
+#' Historical data on bio and medal results of Olympic Athletes from Athens 1896 to Rio 2016. Preliminary filtering done to remove any observations with missing data.
 #'
 #' From the authors: "Note that the Winter and Summer Games were held in the same year up until 1992. After that, they staggered them such that Winter Games occur on a four year cycle starting with 1994..."
 #'
-#' @format A tibble with 148,480 rows and 15 columns
+#' @format A tibble with 30,181 rows and 15 columns
 #' \describe{
 #'   \item{ID}{Unique number for each athlete}
 #'   \item{Name}{athlete name}
