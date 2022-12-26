@@ -1,4 +1,12 @@
 
+#' Title
+#'
+#' @param r
+#'
+#' @return ggplot object
+#' @export
+#'
+#' @examples `scatter_with_r(0.5)`
 scatter_with_r <- function(r) {
   x <- rnorm(10000)
   z <- rnorm(10000)
