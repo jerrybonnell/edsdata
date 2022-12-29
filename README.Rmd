@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of edsdata is to ...
+The `edsdata` package contains datasets for the textbook [Exploring Data Science with R and the Tidyverse: A Concise Introduction](https://ds4world.cs.miami.edu/) by Jerry Bonnell and Mitsunori Ogihara. 
 
 ## Installation
 
@@ -29,27 +29,67 @@ You can install the development version of edsdata from [GitHub](https://github.
 devtools::install_github("jerrybonnell/edsdata")
 ```
 
-## Example
+## License 
 
-This is a basic example which shows you how to solve a common problem:
+Most of the datasets in this package are in the Public Domain and have a Creative Commons license. However, re-distributing the data through this package is not meant to cancel or to modify the existing licenses in any way. Please refer to the references in the `man` pages for information on any individual dataset.
 
-```{r example}
+## Package Contents 
+
+```{r builddata, include=FALSE}
+# code for parsing adapted from fosdata package description
+# https://github.com/speegled/fosdata
 library(edsdata)
-## basic example code
+library(tidyverse)
+sets <- vcdExtra::datasets("edsdata")
+get_source <- Vectorize(function(dset) {
+  
+    thefile <- help(dset, package="edsdata")
+    Rd <- utils:::.getHelpFile(thefile)
+    names(Rd) <- substring(sapply(Rd, attr, "Rd_tag"),2)
+    temp_args <- Rd$arguments
+    
+    Rd$arguments <- NULL
+    myrd <- lapply(Rd, unlist)
+    myrd <- lapply(myrd, paste, collapse="")
+    
+    temp_args <- temp_args[sapply(temp_args , attr, "Rd_tag") == "\\item"]
+    temp_args <- lapply(temp_args, lapply, paste, collapse="")
+    temp_args <- lapply(temp_args, "names<-", c("arg", "description"))
+    myrd$arguments <- temp_args
+    
+    myrd$source
+})
+
+sets <- sets |>
+  mutate(Source = get_source(Item))
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+```{r showdata, echo=FALSE}
+sets %>% select(Item, Title, dim) %>%
+  knitr::kable(col.names = c("Name","Description","Dim (RxC)"))
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
+## Citation
 
-You can also embed plots, for example:
+To cite the package `edsdata` in publications, use:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r echo=FALSE, results='asis'}
+print(citation("edsdata"), style="text")
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+A BibTeX entry for LaTeX users is:
+
+```{r echo=FALSE, comment=NA}
+print(citation("edsdata"), style="bibtex")
+```
+
+## References
+
+```{r showrefs, echo=FALSE, results='asis'}
+for (i in 1:nrow(sets)) {
+  if (!is.na(sets$Source[i])) {
+    cat('####',sets$Item[i],'\n',unlist(sets$Source[i]),'\n')
+  }
+}
+```
+
