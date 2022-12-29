@@ -1,10 +1,14 @@
 Package: edsdata
-Title: What the Package Does (One Line, Title Case)
+Title: Data for the book "Exploring Data Science with R and the Tidyverse: A Concise Introduction"
 Version: 0.0.0.9000
+Date: December 31, 2022
+Maintainer: The package maintainer <j.bonnell@miami.edu>
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    c(person("Jerry", "Bonnell", , "j.bonnell@miami.edu", role = c("aut"),
+           comment = c(ORCID = "0000-0002-7404-9160")),
+      person("Mitsunori", "Ogihara", , "m.ogihara@miami.edu", role = c("aut"))
+      )
+Description: The package provides access to many of the datasets used in the textbook and exercise set. Other datasets will be needed as well, accessible through other packages.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
