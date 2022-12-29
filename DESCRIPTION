@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Date: December 31, 2022
 Maintainer: The package maintainer <j.bonnell@miami.edu>
 Authors@R: 
-    c(person("Jerry", "Bonnell", , "j.bonnell@miami.edu", role = c("aut"),
+    c(person("Jerry", "Bonnell", , "j.bonnell@miami.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7404-9160")),
       person("Mitsunori", "Ogihara", , "m.ogihara@miami.edu", role = c("aut"))
       )
