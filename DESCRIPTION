@@ -1,7 +1,6 @@
 Package: edsdata
 Title: Data for the book "Exploring Data Science with R and the Tidyverse: A Concise Introduction"
 Version: 0.0.0.9000
-Date: December 31, 2022
 Authors@R: 
     c(person("Jerry", "Bonnell", , "j.bonnell@miami.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7404-9160")),
